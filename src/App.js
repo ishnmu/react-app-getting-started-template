@@ -1,12 +1,9 @@
 import * as React from "react";
-import Home from "./components/Home";
-import GlobalStyle from "./global.style";
 
 function App() {
   return (
     <React.Fragment>
-      <GlobalStyle />
-      <Home />
+      <h1>Hello</h1>
     </React.Fragment>
   );
 }
